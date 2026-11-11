@@ -122,6 +122,9 @@ h2{font-size:clamp(2rem,5.4vw,5rem);max-width:22ch}
 .calc__sum{font-size:clamp(3rem,6vw,5.5rem);font-weight:500;letter-spacing:-.04em;line-height:1;font-variant-numeric:tabular-nums}
 .calc__note{margin:8px 0 22px;color:var(--ink2)}
 
+.guide{background:var(--field);padding:clamp(80px,10vw,160px) var(--m);display:grid;grid-template-columns:1.2fr 1fr;gap:var(--m);align-items:end}
+.guide__body p{font-size:1.15rem;max-width:30em}
+.guide__acts{display:flex;flex-wrap:wrap;gap:20px 24px;align-items:center;margin-top:28px}
 /* faq */
 .faq{padding:clamp(80px,10vw,160px) var(--m);display:grid;grid-template-columns:1fr 1.3fr;gap:var(--m);align-items:start}
 .faq__list{display:grid;gap:2px}
@@ -166,7 +169,7 @@ details p{padding:0 0 24px;max-width:34em;color:var(--ink2)}
   .header__cta{display:none}
   .hero{grid-template-columns:1fr;padding-top:88px;min-height:auto;gap:32px}
   .field{aspect-ratio:1;max-height:none}
-  .zone__head,.zone__body,.pick__body,.rooms,.faq,.contact,.soon{grid-template-columns:1fr}
+  .guide,.zone__head,.zone__body,.pick__body,.rooms,.faq,.contact,.soon{grid-template-columns:1fr}
   .soon .textlink{grid-column:1}
   .zone__stage,.zone__steps{grid-area:1/1}
   .zone__stage{top:64px;aspect-ratio:auto;height:42vh;max-height:none;z-index:1}
